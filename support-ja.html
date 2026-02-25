@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サポート - AizuDeck（合図デッキ）</title>
+    <style>
+        :root {
+            --bg: #1a1a2e;
+            --card: #16213e;
+            --accent: #a78bfa;
+            --text: #e2e8f0;
+            --muted: #94a3b8;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Hiragino Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+        .back {
+            display: inline-block;
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+        .back:hover { text-decoration: underline; }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 24px;
+        }
+        h2 {
+            font-size: 1.2rem;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: var(--accent);
+        }
+        p {
+            line-height: 1.8;
+            color: var(--muted);
+            margin-bottom: 16px;
+        }
+        a { color: var(--accent); }
+        .contact-card {
+            background: var(--card);
+            border-radius: 16px;
+            padding: 28px;
+            margin: 24px 0;
+            border: 1px solid #334155;
+        }
+        .contact-card p { margin-bottom: 8px; }
+        .email-link {
+            display: inline-block;
+            padding: 12px 28px;
+            background: var(--accent);
+            color: #1a1a2e;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-top: 12px;
+            transition: opacity 0.2s;
+        }
+        .email-link:hover { opacity: 0.85; }
+        .faq-item {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 12px;
+            border: 1px solid #334155;
+        }
+        .faq-item h3 {
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+        .faq-item p {
+            font-size: 0.9rem;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">&larr; AizuDeck に戻る</a>
+        <h1>サポート</h1>
+        <p>
+            AizuDeck（合図デッキ）についてお困りですか？下記のよくある質問をご確認いただくか、直接お問い合わせください。
+        </p>
+
+        <div class="contact-card">
+            <p><strong>お問い合わせ</strong></p>
+            <p>バグ報告、機能リクエスト、その他のご質問：</p>
+            <a href="mailto:contact.aizudeck@gmail.com" class="email-link">メールで問い合わせ</a>
+        </div>
+
+        <h2>よくある質問</h2>
+
+        <div class="faq-item">
+            <h3>フローの作り方は？</h3>
+            <p>Apple Watch で AizuDeck を開き、デッキ画面の「+」ボタンをタップします。フロー名を入力し、カスタムの時間とキューパターンでステップを追加してください。</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>ハプティックキューとは？</h3>
+            <p>ハプティックキューは、次のステップに進むタイミングを手首への振動で知らせる機能です。タップ、ダブル、トリプル、ロングの4パターンがあり、画面を見ずに感じ取ることができます。</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>iPhone でフローを編集できますか？</h3>
+            <p>はい。iPhone で AizuDeck アプリを開き、フローをタップして編集できます。変更は WatchConnectivity を通じて Apple Watch に自動同期されます。</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>FlowPass とは？</h3>
+            <p>FlowPass は買い切り型の課金で、無制限のデッキスロット、フローごとの無制限ステップ、iPhone アプリの広告非表示が含まれます。</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>購入の復元方法は？</h3>
+            <p>Apple Watch で AizuDeck を開き、設定 &gt; FlowPass から「復元」をタップしてください。Apple ID を通じて購入が確認されます。</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>ハプティクスが動作しません</h3>
+            <p>Apple Watch がサイレントモード、睡眠集中モード、おやすみモードになっていないか確認してください。また、設定の「振動の強さ」が「中」または「強」になっているか確認してください。</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>アプリとデータを削除するには？</h3>
+            <p>Apple Watch と iPhone から AizuDeck を削除すると、すべてのフロー、セッション履歴、設定が完全に削除されます。外部にデータは保存されていません。</p>
+        </div>
+    </div>
+</body>
+</html>

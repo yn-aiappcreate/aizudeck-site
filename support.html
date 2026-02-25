@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - AizuDeck</title>
+    <style>
+        :root {
+            --bg: #1a1a2e;
+            --card: #16213e;
+            --accent: #a78bfa;
+            --text: #e2e8f0;
+            --muted: #94a3b8;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+        .back {
+            display: inline-block;
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+        .back:hover { text-decoration: underline; }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 24px;
+        }
+        h2 {
+            font-size: 1.2rem;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: var(--accent);
+        }
+        p {
+            line-height: 1.8;
+            color: var(--muted);
+            margin-bottom: 16px;
+        }
+        a { color: var(--accent); }
+        .contact-card {
+            background: var(--card);
+            border-radius: 16px;
+            padding: 28px;
+            margin: 24px 0;
+            border: 1px solid #334155;
+        }
+        .contact-card p { margin-bottom: 8px; }
+        .email-link {
+            display: inline-block;
+            padding: 12px 28px;
+            background: var(--accent);
+            color: #1a1a2e;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-top: 12px;
+            transition: opacity 0.2s;
+        }
+        .email-link:hover { opacity: 0.85; }
+        .faq-item {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 12px;
+            border: 1px solid #334155;
+        }
+        .faq-item h3 {
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+        .faq-item p {
+            font-size: 0.9rem;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">&larr; Back to AizuDeck</a>
+        <h1>Support</h1>
+        <p>
+            Need help with AizuDeck? Check the FAQ below or contact us directly.
+        </p>
+
+        <div class="contact-card">
+            <p><strong>Contact Us</strong></p>
+            <p>For bug reports, feature requests, or any questions:</p>
+            <a href="mailto:contact.aizudeck@gmail.com" class="email-link">Email Support</a>
+        </div>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3>How do I create a flow?</h3>
+            <p>Open AizuDeck on your Apple Watch, tap the "+" button on the Deck screen, give your flow a name, and add steps with custom durations and cue patterns.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What are haptic cues?</h3>
+            <p>Haptic cues are gentle vibration patterns on your wrist that signal when to move to the next step. There are 4 patterns: Tap, Double, Triple, and Long. You can feel them without looking at the screen.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Can I edit flows on my iPhone?</h3>
+            <p>Yes. Open the AizuDeck iPhone app, tap any flow to edit it. Changes sync automatically to your Apple Watch via WatchConnectivity.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What is FlowPass?</h3>
+            <p>FlowPass is a one-time purchase that unlocks unlimited deck slots, unlimited steps per flow, and removes ads from the iPhone app.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I restore my purchase?</h3>
+            <p>Open AizuDeck on your Apple Watch, go to Tuning &gt; FlowPass, and tap "Restore". Your purchase will be verified through your Apple ID.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Haptics are not working. What should I do?</h3>
+            <p>Make sure your Apple Watch is not in Silent Mode, Sleep Focus, or Do Not Disturb. Also check that the Wrist Volume setting in Tuning is set to Medium or High.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I delete the app and all data?</h3>
+            <p>Deleting AizuDeck from your Apple Watch and iPhone will permanently remove all flows, session history, and settings. No data is stored externally.</p>
+        </div>
+    </div>
+</body>
+</html>
